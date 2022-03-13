@@ -85,3 +85,7 @@ SHRP_DEVICE_TYPE := A_Only
 SHRP_DARK := true
 SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
 SHRP_EXPRESS := true
+INC_IN_REC_ADDON_1 := true
+INC_IN_REC_ADDON_2 := true
+INC_IN_REC_ADDON_3 := true
+INC_IN_REC_ADDON_4 := true
