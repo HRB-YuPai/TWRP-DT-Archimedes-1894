@@ -76,3 +76,12 @@ TW_DEFAULT_LANGUAGE := zh_CN
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+
+# SHRP Configuration
+SHRP_DEVICE_CODE := Archimedes
+SHRP_MAINTAINER := Lone_Wolf
+SHRP_REC_TYPE := Normal
+SHRP_DEVICE_TYPE := A_Only
+SHRP_DARK := true
+SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
+SHRP_EXPRESS := true
