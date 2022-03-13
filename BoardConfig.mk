@@ -78,8 +78,8 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 
 # SHRP Configuration
-SHRP_DEVICE_CODE := Archimedes
-SHRP_MAINTAINER := Lone_Wolf
+SHRP_DEVICE_CODE := 小米小爱老师4G版(Archimedes)
+SHRP_MAINTAINER := 雪域孤狼
 SHRP_REC_TYPE := Normal
 SHRP_DEVICE_TYPE := A_Only
 SHRP_DARK := true
