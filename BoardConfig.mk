@@ -79,7 +79,7 @@ TW_USE_TOOLBOX := true
 
 # SHRP Configuration
 SHRP_DEVICE_CODE := 小米小爱老师4G版_Archimedes
-SHRP_MAINTAINER := 雪域孤狼_https:\/\/midrai\.cn
+SHRP_MAINTAINER := 雪域孤狼_https://midrai.cn
 SHRP_REC_TYPE := Normal
 SHRP_DEVICE_TYPE := A_Only
 SHRP_DARK := true
