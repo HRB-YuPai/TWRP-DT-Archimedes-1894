@@ -80,15 +80,31 @@ TW_USE_TOOLBOX := true
 # SHRP Configuration
 SHRP_DEVICE_CODE := 小米小爱老师4G版_Archimedes
 SHRP_MAINTAINER := 雪域孤狼_https://midrai.cn
-SHRP_REC_TYPE := Normal
+SHRP_REC_TYPE := Treble
 SHRP_DEVICE_TYPE := A_Only
 SHRP_DARK := true
 SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
 SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
+SHRP_NOTCH := true
+SHRP_EDL_MODE := 0
+SHRP_FLASH := 1
+SHRP_CUSTOM_FLASHLIGHT := true
+SHRP_REC := /dev/block/by-name/recovery
+INC_IN_REC_MAGISK := true
+SHRP_OFFICIAL := true
 INC_IN_REC_ADDON_1 := true
 INC_IN_REC_ADDON_2 := true
 INC_IN_REC_ADDON_3 := true
 INC_IN_REC_ADDON_4 := true
+
+# System as root
+BOARD_SUPPRESS_SECURE_ERASE := true
+
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
+LZMA_RAMDISK_TARGETS := recovery
+LZMA_COMPRESSION := -9
 
 #SHRP EXTERNAL ADDONS
 SHRP_EXTERNAL_ADDON_PATH := "device/xiaomi/Archimedes/addon/"
