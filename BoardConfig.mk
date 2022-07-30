@@ -89,3 +89,6 @@ INC_IN_REC_ADDON_1 := true
 INC_IN_REC_ADDON_2 := true
 INC_IN_REC_ADDON_3 := true
 INC_IN_REC_ADDON_4 := true
+
+#SHRP EXTERNAL ADDONS
+SHRP_EXTERNAL_ADDON_PATH := "device/xiaomi/Archimedes/addon/"
