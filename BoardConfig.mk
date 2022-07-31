@@ -87,16 +87,16 @@ SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
 SHRP_EXPRESS := true
 SHRP_EXPRESS_USE_DATA := true
 SHRP_NOTCH := true
-SHRP_EDL_MODE := 0
+SHRP_EDL_MODE := 1
 SHRP_FLASH := 1
 SHRP_CUSTOM_FLASHLIGHT := true
 SHRP_REC := /dev/block/by-name/recovery
 INC_IN_REC_MAGISK := true
-SHRP_OFFICIAL := true
+#SHRP_OFFICIAL := true
 INC_IN_REC_ADDON_1 := true
 INC_IN_REC_ADDON_1 := true
 INC_IN_REC_ADDON_2 := true
-INC_IN_REC_ADDON_3 := false
+INC_IN_REC_ADDON_3 := true
 
 # System as root
 BOARD_SUPPRESS_SECURE_ERASE := true
