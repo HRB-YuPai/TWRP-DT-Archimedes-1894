@@ -96,7 +96,7 @@ SHRP_OFFICIAL := true
 INC_IN_REC_ADDON_1 := true
 INC_IN_REC_ADDON_2 := true
 INC_IN_REC_ADDON_3 := true
-INC_IN_REC_ADDON_4 := true
+INC_IN_REC_ADDON_4 := false
 
 # System as root
 BOARD_SUPPRESS_SECURE_ERASE := true
